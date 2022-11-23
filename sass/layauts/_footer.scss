@@ -1,0 +1,130 @@
+.footer {
+    padding: 60px 0;
+    background-color: var(--primary-background-color);
+    
+    @media screen and (min-width: 1200px) {
+        .footer__container {
+            display: flex;
+            flex-direction: row;
+        }
+       }
+
+  
+
+   
+}
+.logo__footer {
+    display: block;
+    /*margin-bottom: 20px;*/
+    margin-bottom: 28px;
+    
+    
+    color: var(--original-white-color);
+}
+
+
+
+.address {
+ @media screen and (max-width: 1199px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+ }
+   @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    
+    margin-right: 94px;
+   }
+   /* margin-right: 70px;
+
+    font-style: normal;*/
+    &__list {
+      @media screen and (max-width: 1199px) {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+        
+    }
+
+    &__link {
+        display: inline-block;
+       
+        @include font (14, 1.71, null, 0.03em);
+        color: var(--original-white-color);
+        background-color: var(--primary-background-color);
+    }
+    &__links {
+        display: inline-block;
+        @include font (14, 1.71, null, 0.03em);
+        color: var(--gray-color);
+        background-color: var(--primary-background-color);
+    }
+    
+    
+}
+@media  screen and (min-width: 768px) and (max-width: 1199px) {
+    .footer__wraper {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+    .address {
+        margin-bottom: 0;
+    }
+    .join {
+        margin-left: 165px;
+    }
+
+
+}
+
+
+@media  screen and (min-width: 1200px) {
+    .footer__wraper {
+        display: flex;
+        justify-content: start;
+    }
+    .address {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .join {
+        margin-top: 12px;
+        
+    }
+}
+
+.address-item:not(:last-child) {
+    margin-bottom: 12px;
+}
+
+
+.networks__link__footer{ 
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.networks__footer { 
+display: flex;
+justify-content: center;
+gap: 10px;
+margin-bottom: 60px;
+}
+
+.networks__icon__footer {
+fill: #fff;
+}
+
+
+.join__title {
+    @include font (14, 1.17, 700, 0.03em);
+    text-align: center ;
+    color: var(--original-white-color);
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}

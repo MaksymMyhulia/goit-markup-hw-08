@@ -1,0 +1,24 @@
+:root {
+    --primary-text-color: #212121;
+    --text-color: #757575; 
+    --accent-color: #2196F3;
+    --original-black-color: #000; 
+    --original-white-color: #fff;
+    --primary-background-color: #2F303A;
+    --white-background-color: #F5F4FA;
+    --gray-color: rgba(255, 255, 255, 0.6);
+    --white-second-section-color: #fff;
+    --border-color: #EEEEEE;
+    --link-color: #AFB1B8;
+    --overlay-color: #c4c4c4;
+    --menu-button-color: rgba(33, 33, 33, 1);
+
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    --gradient: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+    );
+    
+}
