@@ -37,6 +37,8 @@
     flex-direction: column;
     
     margin-right: 94px;
+
+    
    }
    /* margin-right: 70px;
 
@@ -60,6 +62,7 @@
     &__links {
         display: inline-block;
         @include font (14, 1.71, null, 0.03em);
+        font-style: normal;
         color: var(--gray-color);
         background-color: var(--primary-background-color);
     }
@@ -127,4 +130,8 @@ fill: #fff;
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 20px;
+
+    @media screen and (min-width: 1200px) {
+        text-align: start;  
+    }
 }
