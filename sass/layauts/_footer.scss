@@ -40,9 +40,7 @@
 
     
    }
-   /* margin-right: 70px;
-
-    font-style: normal;*/
+   
     &__list {
       @media screen and (max-width: 1199px) {
         display: flex;
@@ -56,6 +54,7 @@
         display: inline-block;
        
         @include font (14, 1.71, null, 0.03em);
+        font-style: normal;
         color: var(--original-white-color);
         background-color: var(--primary-background-color);
     }

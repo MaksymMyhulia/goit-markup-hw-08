@@ -459,6 +459,7 @@ img {
 }
 .trade__wrap {
   position: relative;
+  margin: 0;
   height: 70px;
   width: 100%;
   top: -70px;
@@ -478,6 +479,11 @@ img {
   text-align: center;
   text-transform: uppercase;
   color: var(--original-white-color);
+}
+
+.trade__item {
+  display: block;
+  height: 294px;
 }
 
 .trade__item:not(:last-child) {
@@ -1003,11 +1009,6 @@ img {
   color: var(--original-white-color);
 }
 
-.address {
-  /* margin-right: 70px;
-
-   font-style: normal;*/
-}
 @media screen and (max-width: 1199px) {
   .address {
     display: flex;
@@ -1036,6 +1037,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  font-style: normal;
   color: var(--original-white-color);
   background-color: var(--primary-background-color);
 }
